@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IMPORT</title>
+
+  <link rel="import" href="heart.html">
+</head>
+<body>
+  <script type="text/javascript">
+    var heart = document.querySelector('link[ref="import"]').import
+    var article = heart.querySelector('.heart')
+    document.body.appendChild(article.cloneNode(true))
+  </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "firststudy-application",
+  "short_name": "firststudy-application",
+  "description": "this is my first create polymer application",
+  "start_url": "/",
+  "display": "standalone"
+}
